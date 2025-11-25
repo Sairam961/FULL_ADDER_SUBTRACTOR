@@ -37,6 +37,13 @@ Diff = A ⊕ B ⊕ Bin
 Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
+Full Adder
+
+ <img width="399" height="343" alt="image" src="https://github.com/user-attachments/assets/190bee73-a07a-42a6-894e-1beb0f6bec8b" />
+
+Full Subtractor
+
+ <img width="399" height="343" alt="image" src="https://github.com/user-attachments/assets/aa869a57-bbad-4ccd-9c5d-672d73b1d2ad" />
 
 **Procedure**
 
@@ -44,8 +51,13 @@ Write the detailed procedure here
 
 **Program:**
 
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+Program to design a full subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. 
+```
+Developed by: R.Sairam
+RegisterNumber:25000694
+```
+
+
 
 **RTL Schematic**
 
