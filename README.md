@@ -37,6 +37,7 @@ Diff = A ⊕ B ⊕ Bin
 Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
+
 Full Adder
 
  <img width="399" height="343" alt="image" src="https://github.com/user-attachments/assets/190bee73-a07a-42a6-894e-1beb0f6bec8b" />
@@ -57,11 +58,53 @@ Developed by: R.Sairam
 RegisterNumber:25000694
 ```
 
+Full Adder
+
+```
+module full_adder(df,bo,a,b,bin);
+output df;
+output bo;
+input a;
+input b;
+input bin;
+wire w1,w2,w3;
+assign w1=a^b;
+assign w2=(~a&b);
+assign w3=(~w1&bin);
+assign df=w1^bin;
+assign bo=w2|w3;
+endmodule
+```
+
+Full Subtractor
+
+```
+module full_subtractor(diff, borrow, a, b, bin);
+  output diff;
+  output borrow;
+  input a;
+  input b;
+  input bin;
+  assign diff = a ^ b ^ bin;
+  assign borrow = (~a & b) | (~(a ^ b) & bin);
+endmodule
+```
+
 
 
 **RTL Schematic**
 
+Full Adder
+
+ <img width="731" height="364" alt="image" src="https://github.com/user-attachments/assets/b64fba95-1870-4c57-9a2d-1822d1c75737" />
+
+
 **Output Timing Waveform**
+
+Full Adder
+
+ <img width="1280" height="762" alt="image" src="https://github.com/user-attachments/assets/f96f7759-b1ef-4a60-81e4-16019913aebb" />
+
 
 **Result:**
 
