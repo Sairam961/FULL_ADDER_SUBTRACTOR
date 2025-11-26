@@ -98,12 +98,22 @@ Full Adder
 
  <img width="731" height="364" alt="image" src="https://github.com/user-attachments/assets/b64fba95-1870-4c57-9a2d-1822d1c75737" />
 
+Full Subtractor
+
+ <img width="740" height="320" alt="image" src="https://github.com/user-attachments/assets/6dfb25e0-9a64-4320-95ed-c30af8a71ef4" />
+
+
 
 **Output Timing Waveform**
 
 Full Adder
 
  <img width="1280" height="762" alt="image" src="https://github.com/user-attachments/assets/f96f7759-b1ef-4a60-81e4-16019913aebb" />
+
+Full Subtractor
+
+ <img width="1280" height="762" alt="image" src="https://github.com/user-attachments/assets/099b02dd-a858-4002-a25f-fd8ea1a68806" />
+
 
 
 **Result:**
